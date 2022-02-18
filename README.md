@@ -1,4 +1,4 @@
-# DesafioCapGemini
+# DesafioCapGemini ![](#home)
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
@@ -7,7 +7,8 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-![Desafio CapGemini 2022!](C:\Users\vitor\Pictures\Capgemini.jpg)
+[![Capgemini](https://user-images.githubusercontent.com/83569102/154752661-6d50b0fe-cc5f-490e-8c13-1808db911db9.png)](https://capgemini.proway.com.br/)
+
 
 > Desafio de Progamação para seleção CapGemini Academia 2022!!
 
@@ -24,23 +25,48 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 Para instalar o `<DesafioCapGemini>`, siga as seguintes etapas:
 
 Linux e macOS:
-```
-<comando_de_instalação>
+
+```bash
+# Clone este repositório
+$ git clone <https://github.com/tgmarinho/nlw1>
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd nlw1
+
+# Vá para a pasta server
+$ cd server
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev:server
 ```
 
 Windows:
-```
-<comando_de_instalação>
+```bash
+# Clone este repositório
+$ git clone <https://github.com/tgmarinho/nlw1>
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd nlw1
+
+# Vá para a pasta server
+$ cd server
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev:server
 ```
 
-## ☕ Usando <nome_do_projeto>
+## ☕ Executando o <DesafioCapGemini>
 
-Para usar <nome_do_projeto>, siga estas etapas:
+Para usar <DesafioCapGemini>, siga estas etapas:
 
 ```
 <exemplo_de_uso>
 ```
 
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
-
-[⬆ Voltar ao topo](#DesafioCapGemini)<br>
+[⬆ Voltar ao topo](#home)<br>
