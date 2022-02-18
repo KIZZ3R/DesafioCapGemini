@@ -1,6 +1,6 @@
-# DesafioCapGemini ![](#home)
+# DesafioCapGemini 
 
-<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
+<a name="home"></a>
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
@@ -24,40 +24,22 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 Para instalar o `<DesafioCapGemini>`, siga as seguintes etapas:
 
-Linux e macOS:
+Linux e Windows:
 
-```bash
-# Clone este repositório
-$ git clone <https://github.com/tgmarinho/nlw1>
-
-# Acesse a pasta do projeto no terminal/cmd
-$ cd nlw1
-
-# Vá para a pasta server
-$ cd server
-
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev:server
+### Clone este repositório
 ```
-
-Windows:
-```bash
-# Clone este repositório
-$ git clone <https://github.com/tgmarinho/nlw1>
-
-# Acesse a pasta do projeto no terminal/cmd
-$ cd nlw1
-
-# Vá para a pasta server
-$ cd server
-
-# Instale as dependências
+$ git clone https://github.com/KIZZ3R/DesafioCapGemini.git
+```
+### Acesse a pasta do projeto no terminal/cmd
+```
+$ cd DesafioCapGemini
+```
+### Instale as dependências
+```
 $ npm install
-
-# Execute a aplicação em modo de desenvolvimento
+```
+### Execute a aplicação em modo de desenvolvimento
+```
 $ npm run dev:server
 ```
 
