@@ -26,6 +26,8 @@ public class SegundaQuestao {
             } else {
                 System.out.println("Digite uma senha mais forte");
             }
+
+            scanner.close();
         }
         }
     }

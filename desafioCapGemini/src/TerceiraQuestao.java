@@ -48,5 +48,7 @@ public class TerceiraQuestao {
                 }}
                 System.out.println("" + finalLength);
             }
+
+            in.close();
         }
     }
