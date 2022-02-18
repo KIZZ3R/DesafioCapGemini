@@ -34,21 +34,27 @@ $ git clone https://github.com/KIZZ3R/DesafioCapGemini.git
 ```
 $ cd DesafioCapGemini
 ```
-### Instale as dependências
-```
-$ npm install
-```
-### Execute a aplicação em modo de desenvolvimento
-```
-$ npm run dev:server
-```
 
-## ☕ Executando o <DesafioCapGemini>
+## ☕ Executando o `<DesafioCapGemini>`
 
 Para usar <DesafioCapGemini>, siga estas etapas:
 
+
+### Abrindo o projeto com VScode
+No terminal/cmd digite:
 ```
-<exemplo_de_uso>
+$ code desafioCapGemini
 ```
+### Abrindo o projeto com Intelijj IDEA
+No terminal/cmd digite:
+```
+$ idea desafioCapGemini
+```
+### Caso queira abrir manualmente siga os seguintes diretórios:
+```
+$ C:\Users\seu-usuário\desafioCapGemini
+```
+
+ 
 
 [⬆ Voltar ao topo](#home)<br>
