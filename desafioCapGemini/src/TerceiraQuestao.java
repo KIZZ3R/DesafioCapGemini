@@ -3,50 +3,51 @@ import java.util.*;
 public class TerceiraQuestao {
     public static void main(String[] args) {
 
-        String string, substring;
-        int length, inputInt;
+        String palavraEscolhida;
+        String substringsDasPalavras;
+        int lengthDaPalavra;
+        int quantDePalavras;
 
         Scanner in = new Scanner(System.in);
         System.out.println("DIGITE A QUANTIDADE DE PALAVRAS QUE GOSTARIA DE DIGITAR");
-        inputInt = Integer.parseInt(in.nextLine());
+        quantDePalavras = Integer.parseInt(in.nextLine());
 
-        while (inputInt > 0) {
+        while (quantDePalavras > 0) {
 
-            inputInt--;
-            ArrayList<String> array = new ArrayList<>();
+            quantDePalavras--;
+            ArrayList<String> arrayComAsPalavras = new ArrayList<>();
 
-            string = in.nextLine();
-            length = string.length();
+            palavraEscolhida = in.nextLine();
+            lengthDaPalavra = palavraEscolhida.length();
 
-            for (int c = 0; c < length; c++) {
-                for (int i = 1; i <= length - c; i++) {
-                    substring = string.substring(c, c + i);
+            for (int c = 0; c < lengthDaPalavra; c++) {
+                for (int i = 1; i <= lengthDaPalavra - c; i++) {
+                    substringsDasPalavras = palavraEscolhida.substring(c, c + i);
 
-                    char[] chars = substring.toCharArray();
+                    char[] chars = substringsDasPalavras.toCharArray();
                     Arrays.sort(chars);
 
-                    substring = new String(chars);
-                    array.add(substring);
+                    substringsDasPalavras = new String(chars);
+                    arrayComAsPalavras.add(substringsDasPalavras);
                 }
             }
-            Collections.sort(array);
-            int finalLength = 0;
+            Collections.sort(arrayComAsPalavras);
+            int tamanhoFinalDaSubstrings = 0;
 
-            System.out.println(array);
-
+            System.out.println(arrayComAsPalavras);
             /*
             O primeiro for será o que irá comparar o próximo index após o
             segundo for entrar no else.
              */
-            for (int j = 0; j < array.size() - 1; j++) {
-                for(int i=j;i<array.size() - 1;i++) {
-                    if(array.get(i).equals(array.get(i+1))) {
-                        finalLength++;
+            for (int j = 0; j < arrayComAsPalavras.size() - 1; j++) {
+                for(int i=j;i<arrayComAsPalavras.size() - 1;i++) {
+                    if(arrayComAsPalavras.get(i).equals(arrayComAsPalavras.get(i+1))) {
+                        tamanhoFinalDaSubstrings++;
                     } else {
-                        i=array.size();
+                        i=arrayComAsPalavras.size();
                     }
                 }}
-                System.out.println("" + finalLength);
+                System.out.println("" + tamanhoFinalDaSubstrings);
             }
 
             in.close();

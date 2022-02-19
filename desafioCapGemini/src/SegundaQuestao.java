@@ -15,8 +15,8 @@ public class SegundaQuestao {
             // senha usada no exemplo --> Ya3&ab
 
             //Uso do regex para filtrar as condições, de modo a ter uma senha forte.
-            Pattern pattern = Pattern.compile("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[-+_!@#$%^&*.,?])(?=.{6,}).+$");
-            Matcher matcher = pattern.matcher(senhaInput);
+            Pattern verificadorSenha = Pattern.compile("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[-+_!@#$%^&*.,?])(?=.{6,}).+$");
+            Matcher matcher = verificadorSenha.matcher(senhaInput);
 
             boolean senhaValida = matcher.find();
 
