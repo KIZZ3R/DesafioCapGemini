@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class PrimeiraQuestao {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[]args) {
 
         System.out.println("Digite a quantidade de degraus da escada");
 
