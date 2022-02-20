@@ -6,15 +6,14 @@ public class TerceiraQuestao {
         String palavraEscolhida;
         String substringsDasPalavras;
         int lengthDaPalavra;
-        int quantDePalavras;
+        boolean condicaoWhile = true;
 
         Scanner in = new Scanner(System.in);
-        System.out.println("DIGITE A QUANTIDADE DE PALAVRAS QUE GOSTARIA DE DIGITAR");
-        quantDePalavras = Integer.parseInt(in.nextLine());
+        System.out.println("DIGITE A PALAVRA QUE DESEJA VER O ANAGRAMA DAS SUBSTRINGS");
 
-        while (quantDePalavras > 0) {
+        while (condicaoWhile) {
 
-            quantDePalavras--;
+            condicaoWhile = false;
             ArrayList<String> arrayComAsPalavras = new ArrayList<>();
 
             palavraEscolhida = in.nextLine();
